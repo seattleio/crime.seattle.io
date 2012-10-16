@@ -1,4 +1,4 @@
-$.getJSON('http://data.seattle.gov/api/views/3k2p-39jp/rows.json?jsonp=?&max_rows=10', function(results) {
+$.getJSON('http://data.seattle.gov/api/views/3k2p-39jp/rows.json?jsonp=?&max_rows=25', function(results) {
   console.log(results.data);
 
   var map = L.map('map').setView([47.6097, -122.3331], 11);
