@@ -7,7 +7,7 @@ $.getJSON(dataUrl, function(results) {
 
   var map = L.map('map').setView([47.6097, -122.3331], 11);
 
-  L.tileLayer('http://{s}.tile.cloudmade.com/5aabd2e38b214356942b011b42b77394/997/256/{z}/{x}/{y}.png', {
+  L.tileLayer('http://otile1.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.png', {
       attribution: 'attribution'
   }).addTo(map);
 
